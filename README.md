@@ -151,12 +151,6 @@ numpy
 matplotlib
 ```
 
-For Jupyter notebook support:
-```
-jupyter
-ipython
-```
-
 ## Features
 
 - ✅ Multi-objective optimization (Pareto front)
