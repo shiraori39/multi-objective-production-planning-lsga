@@ -91,34 +91,6 @@ repo/
 python main.py
 ```
 
-### Using in Jupyter Notebook
-
-```python
-from src.models import ProblemData
-from src.algorithms import LSGAAlgorithm
-from src.utils import ParetoPlotter, ResultsDisplay
-from config import AlgorithmConfig
-
-# Load problem data
-problem_data = ProblemData.create_default()
-
-# Configure algorithm
-config = AlgorithmConfig.create_default()  # or create_fast(), create_thorough()
-
-# Run algorithm
-algorithm = LSGAAlgorithm(problem_data, config)
-solutions, pareto_coords = algorithm.run()
-
-# Display results
-display = ResultsDisplay(problem_data)
-display.display_summary(solutions)
-display.display_detailed(solutions)
-
-# Plot results
-plotter = ParetoPlotter()
-plotter.plot_final_pareto(solutions)
-```
-
 ### Customizing Configuration
 
 ```python
