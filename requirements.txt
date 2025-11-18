@@ -1,0 +1,14 @@
+# Production Planning LS-GA Requirements
+
+# Core dependencies
+numpy>=1.20.0
+matplotlib>=3.3.0
+
+# Optional: For Jupyter notebook support
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# Optional: For development and testing
+pytest>=6.0.0
+black>=21.0
+flake8>=3.9.0
